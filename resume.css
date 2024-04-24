@@ -1,0 +1,447 @@
+body{
+    background-color: lightslategray;
+    color: black;
+    overflow: auto;
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 97px;
+    background-color: lavenderblush;
+    
+    box-shadow: o 2px 4px rgba(0,0,0,0.1);
+}
+nav ul li a:hover{
+    color:#131a20;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+ .first{
+    display: flex;
+    justify-content: space-around;
+    margin:  80px 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .left-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.left-section img {
+
+    padding-bottom: 30%;
+    
+    width: 200%;
+    height: 150%;
+    border-radius: 50%;
+    
+}
+ 
+
+ .rightSection{
+    width: 80%;
+    font-size: 2rem;
+    margin: 20px;
+    padding-top: 80px;
+    
+
+ }
+.hero-section-heading{
+    text-decoration: solid;
+    color:black;
+}
+.role{
+    color: hsl(211, 100%, 50%);
+}
+.hero-section-description{
+    font-size: large;
+}
+
+
+.icon-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    display: flex;
+    gap: 2rem;
+}
+.circle-btn1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer;
+    color: black;
+    font-size: large;
+}
+.circle-btn1:hover{
+    color: white;
+}
+.circle-btn2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:palevioletred; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer;
+    color: black;
+    font-size: large;
+
+}
+.circle-btn2:hover{
+    color: white;
+}
+.circle-btn3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:orange; /* Change to whatever color you like */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    cursor: pointer;
+    color: black;
+    font-size: large;
+}
+.circle-btn3:hover{
+    color: white;
+}
+hr{
+    margin-bottom: 1rem;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 15cm;
+    
+    
+    
+}
+
+.second:hover{
+    background-color: lavenderblush;
+}
+.sectionLeft{
+    width: 40%;
+    
+}
+/*h1{
+    padding-bottom: 10%;
+    
+}
+h2{
+    padding-bottom: 90%;
+}*/
+.sectionRight{
+    
+   display: flex; 
+   width: 40;
+   gap: 1.5cm;
+   padding-top: 1cm;
+    
+
+}
+.left{
+    font-size: larger;
+    padding-top: 50px;
+    
+}
+.head3{
+    padding-bottom: 30px;
+}
+.right{
+    padding: 0%;
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    height: auto;
+    width: auto;
+}
+.leftEducation{
+    margin-left: -10%;
+    
+}
+.rightEducation{
+    display: flex;
+}
+
+
+
+
+  
+  img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 29px;
+
+
+}
+.secLeft{
+    width: 40%;
+    padding-top: 2cm;
+}
+.secRight{
+    width: 40%;
+}
+h1{
+    font-size: xx-large;
+}
+.secRight img{
+    padding-right: 2px;
+    padding-top: 2cm;
+}
+
+
+.contain{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1.6cm;
+}
+.contLeft{
+    width: 40%;
+}
+.conRight{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding-right: 6cm;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+
+input,
+textarea {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.mainn{
+    display: flex;
+    width: 100%;
+    gap: 3cm;
+}
+.main-left{
+    width: 40%;
+    padding-left: 20px;
+}
+.main-right{
+    width: 60%;
+    padding-left:10px ;
+}
+
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  footer{
+    background: lightblue;
+    padding-top: 50px;
+  }
+  .containerr{
+         width: 1140px;
+         margin: auto ;
+         display: flex;
+         justify-content:center ;
+  }
+  .footer{
+    width: 33.3%;
+  }
+  h3{
+    font-size: 28px;
+    margin-bottom:15px ;
+    text-align: center;
+  }
+  .footer-content{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+  }
+  .footer-content ul{
+    text-align: center;
+  }
+  .list{
+    padding: 0%;
+  }
+  .list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+  }
+  .social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
